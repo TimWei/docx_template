@@ -1,10 +1,13 @@
 require 'htmltoword'
 require 'erb'
-require_relative 'lib/temp_obj.rb'
-# require 'pry'
+require 'roo'
+require_relative 'lib/temp_obj'
+
 
 obj = TempObj.new
 
-@var = 'QQQQ!'
 
-obj.result
+@var = '123qwe!'
+
+
+obj.result binding
